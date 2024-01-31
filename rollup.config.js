@@ -5,11 +5,13 @@ export default {
     input: 'src/t-writer.js',
     output: {
         file: 'dist/t-writer.js',
-        format: 'umd',
-        name: 't-writer'
+        format: 'es'
     },
     plugins: [
         nodeResolve(),
-        babel({ babelHelpers: 'bundled' })
+        babel({
+            exclude: 'node_modules/**',
+            babelHelpers: 'bundled'
+        })
     ]
 }

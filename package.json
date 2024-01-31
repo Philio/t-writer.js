@@ -1,12 +1,12 @@
 {
   "name": "@philio/t-writer.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Native typewriter effect, without compromises or dependencies.",
   "type": "module",
   "main": "dist/t-writer.js",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c && tsc",
+    "build": "rollup -c",
     "prepublish": "npm run build",
     "test": "standard src/*.js"
   },
@@ -24,14 +24,13 @@
   "author": "Phil Bayfield <mail@phil.io>",
   "devDependencies": {
     "@babel/core": "^7.23.9",
-    "@babel/plugin-external-helpers": "^7.23.3",
     "@babel/preset-env": "^7.23.9",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "rollup": "^4.9.6",
     "typescript": "^5.3.3"
   },
-  "types": "./dist/t-writer.d.ts",
+  "types": "index.d.ts",
   "bugs": {
     "url": "https://github.com/philio/t-writer.js/issues"
   },
