@@ -1,9 +1,12 @@
 # T-Writer.js
 
-[![t-writer.js on NPM](https://img.shields.io/npm/v/t-writer.js.svg?style=flat-square)](https://www.npmjs.com/package/t-writer.js) 
+[![t-writer.js on NPM](https://img.shields.io/npm/v/@philio/t-writer.js.svg?style=flat-square)](https://www.npmjs.com/package/t-writer.js) 
 [![Standard JavaScript Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 
 Native typewriter effect, without compromises or dependencies.
+
+This is a fork of the [original project](https://github.com/ChrisCavs/t-writer.js) from Christopher Cavalea with updated
+dependencies, build scripts and Typescript type declarations.
 
 [See a demo](https://chriscavs.github.io/t-writer-demo/) for ideas/examples.
 
@@ -29,7 +32,7 @@ Follow these steps to get started:
 Using NPM, install T-Writer and save it to your `package.json` dependencies.
 
 ```bash
-$ npm install t-writer.js --save
+$ npm install @philio/t-writer.js --save
 ```
 
 ### Import
@@ -37,7 +40,7 @@ $ npm install t-writer.js --save
 Import T-Writer, naming it according to your preference.
 
 ```es6
-import Typewriter from 't-writer.js'
+import Typewriter from '@philio/t-writer.js'
 ```
 
 ### Instanciate
@@ -351,4 +354,6 @@ Consequently, it supports the following natively:
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT). © 2018 Christopher Cavalea
+[MIT](https://opensource.org/licenses/MIT).   
+© 2018 Christopher Cavalea  
+© 2024 Phil Bayfield  

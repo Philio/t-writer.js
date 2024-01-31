@@ -10,6 +10,6 @@ export default {
     },
     plugins: [
         nodeResolve(),
-        babel({ babelHelpers: 'external' })
+        babel({ babelHelpers: 'bundled' })
     ]
 }

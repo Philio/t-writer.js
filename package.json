@@ -1,6 +1,6 @@
 {
   "name": "@philio/t-writer.js",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Native typewriter effect, without compromises or dependencies.",
   "type": "module",
   "main": "dist/t-writer.js",
